@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* body {
+  background-color: darkturquoise;
+  /* background-image: url(ande.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+/* margin-right: 80px;
+  width: 100%;
+  height: auto;
+} */
+.reg-container {
+  width: 500px;
+  height: 800px;
+  text-align: center;
+  align-content: center;
+  font-weight: 900;
+  background-color: blue;
+  margin-left: 200px;
+  border-radius: 20px;
+  line-height: 4;
+}
+.data {
+  width: 100%;
+  height: 70px;
+  border: 2px solid white;
+  padding: 12px;
+  outline: none;
+  /* border-bottom: 4px solid white; */
+  background-color: blue;
+  border-radius: 20px;
+}
+.data::placeholder {
+  color: white;
+  transition: 1s ease;
+}
+
+.data:hover::placeholder {
+  transform: translateY(-20px);
+  font-size: 20px;
+  cursor: pointer;
+  transition: 1.5s ease;
+}
+a {
+  color: white;
+}
+button {
+  width: 100%;
+  height: 50px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+}
+button:hover {
+  padding: 20px;
+  background-color: orange;
+  color: blue;
+  cursor: pointer;
+  transition: 0.25s ease;
+  /* font-size: 30px; */
+}
+.reg-container:hover {
+  background-color: green;
+}

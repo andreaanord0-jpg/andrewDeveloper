@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="flexbox-demo.css">
+    <link rel="stylesheet" href="reg.css">
+    <title>Flexbox demo</title>
+    <script>
+        function loadingMessage(){
+            alert("The Page is loading,please wait");
+        }
+        function myfocus(x){
+            x.style.background = "cyan";
+            // x.style.color = "black";
+        }
+    </script>
+</head>
+<body onload="loadingMessage()">
+ </div>
+    <!-- NAVIGATION BAR -->
+     <nav>
+
+        <a href="https://www.home">Home</a>
+        <a href="https://www.About">About</a>
+        <a href="https://www.Services">Services</a>
+        <a href="https://www.Contacts">Contacts</a>-
+        <a href="https://www.Portifolio">Potifolio</a>
+     </nav>
+    <!-- FIRST FLEX CONTAINER -->
+     <div class="flex-container">
+        <!--first flex item -->
+    <div class="flex-item2">
+        <h2 style="color: white; font-family: 'Times New Roman'">DASHBOARD</h2>
+
+        <button  onclick="menu.hidden^=1" class="btn">MENU</button>
+        <ul id="menu" hidden>
+            <a href="https://www.instagram">Rate Us</a>
+            <li  >HOME</li>
+            <li>ABOUT</li>
+            <li>SERVICES</li>
+            <li>PORTIFOLIO</li>
+        </ul>
+        
+        <!-- <img src="C:\Users\andrew anord\Desktop\HTML-CSS\Images\canva-laptop-computer---apps-icons-interface-MABgfkgUz5A.png" alt=" my picture" width="300px" height="300px" class="img2"> -->
+        <h3><a href="#">Services</a></h3>
+        <a href="go home">Home</a>
+        <a href="porti">Portifolio</a>
+        <a href="contact">Contact Us</a>
+        <a href="about">About Us</a>
+    </div>
+        <!--second flex Items -->
+         <div class="flex-item1">
+             <!-- <h1>WEBSITE DEVELOPMENT</h1>
+             <p>Website Development reqquires much efforts to archive it and create a proffessional website</p>
+              <h2>TOOLS FOR WEB DEVELOPMENT</h2>
+                 <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JAVASCRIPT</li>
+                    <li>JAVA</li>
+                    <li>DATABASE</li>
+                 </ul>
+
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JAVASCRIPT</li>
+                    <li>JAVA</li>
+                    <li>DATABASE</li>
+                </ul>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JAVASCRIPT</li>
+                    <li>JAVA</li>
+                    <li>DATABASE</li>
+                </ul>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JAVASCRIPT</li>
+                    <li>JAVA</li>
+                    <li>DATABASE</li>
+               </ul> -->
+                <div class="reg-container">
+      <h1 style="color: white">LOGIN</h1>
+      <form action="av/ap/andrew">
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Email"
+          class="data"
+          required
+          minlength="10"
+          onfocus="myfocus(this)"
+        />
+
+        <input
+          type="password"
+          id="Password"
+          name="Password"
+          placeholder="Password"
+          class="data"
+          required
+          minlength="8"
+           onfocus="myfocus(this)"
+        />
+        <input type="checkbox" name="remember" value="remember" />
+        <label for="password">Remember me forgot password</label>
+        <button type="submit" onclick="alert('Login is Successfully')">Submit</button>
+        <button type="reset" onclick="alert('Data Resetted Successfully, Please Fill Data Again')">Reset</button>
+        <p>Don't you have account? <a href="">REGISTER</a></p>
+      </form>
+    </div>
+
+            </div>
+
+     </div>
+     <footer>
+        <div>
+             <h2>SOCIAL MEDIA ICONS</h2>
+        </div>
+           
+             <div class="socio-media">
+            <a href="https://www.facebook" target="_self"><img src="C:\Users\andrew anord\Desktop\HTML-CSS\Icons\icons8-facebook.svg  " alt="FACEBOOK"></a>
+            <a href="https://www.youtube"><img src="C:\Users\andrew anord\Desktop\HTML-CSS\Icons\icons8-youtube.svg" alt="YouTube"></a> 
+            <a href="https://www.instagram"><img src="C:\Users\andrew anord\Desktop\HTML-CSS\Icons\icons8-instagram.svg"  alt="Instagram"></a>
+            <a href="https://www.facebook" target="_self"><img src="C:\Users\andrew anord\Desktop\HTML-CSS\Icons\icons8-facebook.svg  "  alt="FACEBOOK"></a>
+            <a href="https://www.youtube"><img src="C:\Users\andrew anord\Desktop\HTML-CSS\Icons\icons8-youtube.svg"alt="YouTube"></a> 
+            <a href="https://www.instagram"><img src="C:\Users\andrew anord\Desktop\HTML-CSS\Icons\icons8-instagram.svg"  alt="Instagram"></a>
+            </div> 
+            <div class="footer-link">
+            <a href="go Home">Home</a>
+            <a href="about us">About us</a>
+            <a href="Contacts">Contacts</a>
+             </div>
+
+        
+       
+        
+       
+        
+        
+        
+    </footer>
+</body>
+</html>
