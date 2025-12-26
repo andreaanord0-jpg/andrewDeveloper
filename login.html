@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login page</title>
+    <link rel="stylesheet" href="shop.html" />
+    <link rel="stylesheet" href="index.html" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="header">
+      <a href="#"
+        ><img
+          src="img/Cart icons/cart1.png"
+          height="100px"
+          width="100px"
+          class="logo"
+          alt=""
+      /></a>
+      <ul id="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="login.html">Login</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li>
+          <a href="cart.html"
+            ><img src="img/Cart icons/cart2.png" height="50px" width="50px"
+          /></a>
+        </li>
+      </ul>
+    </section>
+    <section id="form">
+      <h1 style="color: black; padding-left: 200px; font-size: 30px">
+        WELCOME TO LOGIN INTO OUR Andrew OnlineShop
+      </h1>
+      <div class="reg-container">
+        <h1 style="color: white">LOGIN</h1>
+        <form action="av/ap/andrew">
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+            class="data"
+            required
+            minlength="10"
+            onfocus="myfocus(this)"
+          />
+
+          <input
+            type="password"
+            id="Password"
+            name="Password"
+            placeholder="Password"
+            class="data"
+            required
+            minlength="8"
+            onfocus="myfocus(this)"
+          />
+          <br />
+          <input type="checkbox" name="remember" value="remember" />
+          <label for="password">Remember me forgot password</label> <br />
+          <button
+            id="btn"
+            type="submit"
+            onclick="alert('Login is Successfully')"
+          >
+            Login
+          </button>
+          <br />
+          <button
+            id="btn"
+            type="reset"
+            onclick="alert('Data Resetted Successfully, Please Fill Data Again')"
+          >
+            Reset
+          </button>
+          <p>Don't you have account? <a href="">REGISTER</a></p>
+        </form>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="foot">
+      <div class="col1">
+        <img src="img/Cart icons/cart1.png" width="100px" width="100px" />
+        <h3>Contacts</h3>
+        <p><strong>Address:</strong> andrewanord@gmail.com</p>
+        <p><strong>Mobile Phone:</strong> 0759768975/0626632318</p>
+        <p><strong>Hours:</strong> 24 hours</p>
+        <div class="follw">
+          <h4>Follw us</h4>
+          <a href="https:/www.instagram"
+            ><img src="img/media Icons/instagram.svg" alt=""
+          /></a>
+          <a href="#"
+            ><img src="img/media Icons/icons8-facebook.svg" alt=""
+          /></a>
+          <a href="#"
+            ><img src="img\media Icons\icons8-whatsapp.svg" alt=""
+          /></a>
+          <a href="#"
+            ><img src="img\media Icons\icons8-youtube.svg" alt=""
+          /></a>
+        </div>
+      </div>
+
+      <div class="col2">
+        <h3>About</h3>
+        <a href="#">About us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact us</a>
+      </div>
+
+      <div class="col3">
+        <h3>My Account</h3>
+        <a href="#">Sign in</a>
+        <a href="#">View cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="col4">
+        <h3>Payment</h3>
+        <p>Make a secure payment for your products in cart</p>
+        <img src="img/pay1.jpeg" alt="" />
+        <img src="img/pay2.jpeg" alt="" />
+      </div>
+    </footer>
+  </body>
+</html>
